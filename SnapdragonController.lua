@@ -1,10 +1,10 @@
 local UserInputService = game:GetService("UserInputService")
 
-local objectAssign = loadstring(game:HttpGet("https://raw.githubusercontent.com/tntmaster1385/ServerLib/refs/heads/main/Library/SnapDragon/objectAssign.lua"))()
-local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/tntmaster1385/ServerLib/refs/heads/main/Library/SnapDragon/Signal.lua"))()
-local SnapdragonRef = loadstring(game:HttpGet("https://raw.githubusercontent.com/tntmaster1385/ServerLib/refs/heads/main/Library/SnapDragon/SnapdragonRef.lua"))()
-local t = loadstring(game:HttpGet("https://raw.githubusercontent.com/tntmaster1385/ServerLib/refs/heads/main/Library/SnapDragon/t.lua"))()
-local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/tntmaster1385/ServerLib/refs/heads/main/Library/SnapDragon/Maid.lua"))()
+local objectAssign = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/objectAssign.lua"))()
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/Signal.lua"))()
+local SnapdragonRef = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/SnapdragonRef.lua"))()
+local t = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/t.lua"))()
+local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/Maid.lua"))()
 
 local MarginTypeCheck = t.interface({
 	Vertical = t.optional(t.Vector2),
