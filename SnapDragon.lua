@@ -1,4 +1,4 @@
-local SnapdragonController = loadstring(game:HttpGet("https://raw.githubusercontent.com/tntmaster1385/ServerLib/refs/heads/main/Library/SnapDragon/SnapdragonController.lua"))()
+local SnapdragonController = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/SnapdragonController.lua"))()
 local SnapdragonRef = loadstring(game:HttpGet("https://raw.githubusercontent.com/gwnrdt/ServerLib-Ui/refs/heads/main/SnapdragonRef.lua"))()
 
 local function createDragController(...)
